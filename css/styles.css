@@ -1,10 +1,124 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    background-image: url("https://images.unsplash.com/photo-1535502841082-b76eedcb990a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+body {
+    background-color: #611224;
+    /* background: #124461; */
+    color: floralwhite;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#main {
+    /* background-color:#611224; */
+    margin-top: 30px;
+
+}
+
+#main img {
+    border: 1px solid rgb(137, 208, 212);
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    border-bottom: 3px solid #611224;
+}
+
+
+h3,
+h1 {
+    color: #fb3;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+
+    margin-bottom: 0;
+    line-height: .75;
+    font-family: 'Laila', serif;
+}
+
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+#img-caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #124461;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    width: 100%;
+
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 15px auto;
+
+
+}
+
+#biography,#link,
+#degrees {
+    background-image: url("https://images.unsplash.com/photo-1534083708493-62fff9d96ecc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
     background-attachment: fixed;
     background-size: cover;
-    color:floralwhite;
+
+}
+
+#personal-info,
+#education,
+#awards {
+    /* background: rgb(137, 208, 212); */
+    background-color: #611224;
+    width: 100%;
+
+}
+
+.info {
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+ul li{
+
+}
+
+
+
+
+#link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#link a{
+    color:#fb3;
 }
